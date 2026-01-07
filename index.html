@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setu Connect — We bridge the gap, you build the future</title>
+  <meta name="description" content="Setu Connect — Professional Video Editing, Graphic Design, and Website Creation. We bridge the gap between your ideas and reality.">
+  
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="brand">
+        <!-- Logo Placeholder -->
+        <div class="logo-placeholder">Logo</div>
+        <span class="brand-name">Setu Connect</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#gap">Bridge the Gap</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <h1>
+        We bridge the gap,<br />
+        <span class="gradient-text">you build the future</span>
+      </h1>
+
+      <p class="tagline">
+        Professional solutions in Video Editing, Graphic Design & Website Creation.
+      </p>
+
+      <a href="#contact" class="cta-button">Book a Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== Gap Section ===== -->
+  <section id="gap" class="gap-section container">
+    <h2>How We Bridge the Gap</h2>
+    <p>
+      At <strong>Setu Connect</strong>, we act as the bridge between your ideas and their execution.
+      Whether you're a startup, entrepreneur, or established business — we ensure your creative
+      vision becomes reality with clarity, communication, and craftsmanship.
+    </p>
+
+    <div class="gap-visual">
+      <div class="idea">Idea</div>
+      <div class="bridge">Setu Connect</div>
+      <div class="reality">Reality</div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Video Editing</h3>
+          <p>Smooth transitions, storytelling, color-grading & professional edits.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Graphic Design</h3>
+          <p>Brand identity, social media design, promotional creatives & more.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Website Creation</h3>
+          <p>Modern, responsive, performance-driven websites tailored to your brand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Portfolio ===== -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2>Portfolio Showcase</h2>
+      <p>Here’s where your best work will be displayed.</p>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item">Project 1</div>
+        <div class="portfolio-item">Project 2</div>
+        <div class="portfolio-item">Project 3</div>
+        <div class="portfolio-item">Project 4</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Setu Connect</h2>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell us about your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Setu Connect — All Rights Reserved.</p>
+
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="https://www.instagram.com/setuconnect_official?igsh=bWV0anZybGQyaTF3">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
