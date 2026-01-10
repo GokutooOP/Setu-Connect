@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Process | Setu Connect – How We Execute</title>
+  <meta name="description" content="Learn how Setu Connect executes ideas through a structured, repeatable process designed for startups and growing businesses.">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="site-show">
+
+<!-- ===== Header ===== -->
+<header class="header" id="site-header">
+  <nav class="nav container">
+
+    <a href="index.html" class="logo-link">
+      <img src="images/setuconnect-logo.png" alt="Setu Connect Logo" class="logo">
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="process.html" class="active">Process</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li class="nav-cta">
+        <a href="index.html#contact" class="nav-button">Get Started</a>
+      </li>
+    </ul>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </nav>
+</header>
+
+<!-- ===== Process Hero ===== -->
+<section class="hero">
+  <div class="container hero-content">
+    <h1>Our Execution Process</h1>
+    <p class="tagline">
+      A structured, repeatable framework designed to turn vision into
+      reliable execution — without chaos or guesswork.
+    </p>
+  </div>
+</section>
+
+<!-- ===== Process Philosophy ===== -->
+<section class="gap-section container">
+  <h2>Execution Is a System, Not an Event</h2>
+  <p>
+    At Setu Connect, execution is not treated as ad-hoc task completion.
+    It is a structured system built around clarity, ownership, and accountability.
+  </p>
+  <p>
+    Our process is designed to reduce execution risk, improve speed, and
+    ensure consistent outcomes across different business stages.
+  </p>
+</section>
+
+<!-- ===== Process Timeline ===== -->
+<section class="process-designed container">
+
+  <div class="process-step">
+    <span class="step-number">01</span>
+    <h3>Discovery & Alignment</h3>
+    <p>
+      We begin by understanding your business model, objectives, constraints,
+      and execution gaps. This ensures alignment before any work begins.
+    </p>
+    <ul>
+      <li>Business and goal understanding</li>
+      <li>Execution gap identification</li>
+      <li>Priority alignment</li>
+    </ul>
+  </div>
+
+  <div class="process-step">
+    <span class="step-number">02</span>
+    <h3>Execution Planning</h3>
+    <p>
+      We convert goals into a clear, structured execution roadmap with defined
+      scope, ownership, and timelines.
+    </p>
+    <ul>
+      <li>Execution roadmap creation</li>
+      <li>Task sequencing and dependencies</li>
+      <li>Resource and tool planning</li>
+    </ul>
+  </div>
+
+  <div class="process-step">
+    <span class="step-number">03</span>
+    <h3>Implementation & Ownership</h3>
+    <p>
+      Our team takes ownership of execution, ensuring tasks are implemented
+      with discipline, consistency, and attention to detail.
+    </p>
+    <ul>
+      <li>Hands-on execution</li>
+      <li>Progress tracking</li>
+      <li>Issue resolution</li>
+    </ul>
+  </div>
+
+  <div class="process-step">
+    <span class="step-number">04</span>
+    <h3>Review & Optimization</h3>
+    <p>
+      We regularly review outcomes, optimize workflows, and improve execution
+      efficiency based on results and feedback.
+    </p>
+    <ul>
+      <li>Performance review</li>
+      <li>Process optimization</li>
+      <li>Continuous improvement</li>
+    </ul>
+  </div>
+
+  <div class="process-step">
+    <span class="step-number">05</span>
+    <h3>Scale & Support</h3>
+    <p>
+      As your business grows, we adapt execution systems to support increased
+      complexity, scale, and new initiatives.
+    </p>
+    <ul>
+      <li>Scaling execution frameworks</li>
+      <li>Ongoing operational support</li>
+      <li>Long-term execution partnership</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- ===== Why This Process ===== -->
+<section class="gap-section container">
+  <h2>Why This Process Works</h2>
+  <ul class="why-list">
+    <li>Reduces execution risk and uncertainty</li>
+    <li>Creates clarity and accountability</li>
+    <li>Improves speed without sacrificing quality</li>
+    <li>Designed to scale with business growth</li>
+    <li>Repeatable across clients and stages</li>
+  </ul>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="contact-section">
+  <div class="container">
+    <h2>Ready to Execute with Confidence?</h2>
+    <p class="contact-sub">
+      Let’s discuss how our execution process can support your business.
+    </p>
+    <a href="index.html#contact" class="cta-button">
+      Start the Conversation
+    </a>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>Setu Connect — Bridging Vision and Execution</p>
+    <p>© <span id="year"></span> All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ===== Scripts ===== -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.onclick = () => {
+    navLinks.classList.toggle("active");
+  };
+</script>
+<body class="site-show">
+  <div id="page-transition">
+
+    <!-- ALL YOUR EXISTING PAGE CONTENT GOES HERE -->
+
+  </div>
+</body>
+<script>
+  const transitionEl = document.getElementById("page-transition");
+
+  document.querySelectorAll("a[href]").forEach(link => {
+    const url = link.getAttribute("href");
+
+    // Ignore anchor links & external links
+    if (
+      url.startsWith("#") ||
+      url.startsWith("http") ||
+      link.target === "_blank"
+    ) return;
+
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      transitionEl.classList.add("page-exit");
+
+      setTimeout(() => {
+        window.location.href = url;
+      }, 400);
+    });
+  });
+</script>
+
+</body>
+</html>

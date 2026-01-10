@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Services | Setu Connect – Execution Services for Growing Businesses</title>
+  <meta name="description" content="Setu Connect provides structured execution services across business setup, technology, marketing, operations, and compliance for startups and growing companies.">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="site-show">
+
+<!-- ===== Header ===== -->
+<header class="header" id="site-header">
+  <nav class="nav container">
+
+    <a href="index.html" class="logo-link">
+      <img src="images/setuconnect-logo.png" alt="Setu Connect Logo" class="logo">
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li class="nav-cta">
+        <a href="index.html#contact" class="nav-button">Get Started</a>
+      </li>
+    </ul>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </nav>
+</header>
+
+<!-- ===== Services Hero ===== -->
+<section class="hero">
+  <div class="container hero-content">
+    <h1>Execution Services Designed for Growth</h1>
+    <p class="tagline">
+      Structured, outcome-focused services that help startups and growing
+      businesses execute with clarity, speed, and confidence.
+    </p>
+  </div>
+</section>
+
+<!-- ===== Services Intro ===== -->
+<section class="gap-section container">
+  <h2>How Our Services Work</h2>
+  <p>
+    Setu Connect delivers execution services across critical business functions.
+    Each engagement is structured, execution-driven, and aligned with your
+    business stage.
+  </p>
+  <p>
+    We focus on delivery, accountability, and long-term operational clarity —
+    not one-off consulting.
+  </p>
+</section>
+
+<!-- ===== Services Grid ===== -->
+<section class="services-designed container">
+
+  <div class="service-box">
+    <span class="service-tag">FOUNDATION</span>
+    <h2>Business Setup & Foundations</h2>
+    <p>
+      We help businesses establish strong operational and structural foundations
+      required for long-term growth.
+    </p>
+    <ul>
+      <li>Business process structuring</li>
+      <li>Operational workflows & documentation</li>
+      <li>Tool and system setup</li>
+      <li>Execution support</li>
+    </ul>
+    <p class="service-fit"><strong>Best for:</strong> Early-stage startups</p>
+  </div>
+
+  <div class="service-box">
+    <span class="service-tag">SYSTEMS</span>
+    <h2>Technology & Systems Execution</h2>
+    <p>
+      We execute the internal systems and tools required for efficient,
+      scalable day-to-day operations.
+    </p>
+    <ul>
+      <li>Website & platform setup</li>
+      <li>Automation & internal tools</li>
+      <li>System coordination</li>
+      <li>Execution ownership</li>
+    </ul>
+    <p class="service-fit"><strong>Best for:</strong> Scaling businesses</p>
+  </div>
+
+  <div class="service-box">
+    <span class="service-tag">GROWTH</span>
+    <h2>Marketing & Brand Execution</h2>
+    <p>
+      We translate positioning and strategy into consistent,
+      execution-focused market presence.
+    </p>
+    <ul>
+      <li>Brand implementation</li>
+      <li>Digital presence execution</li>
+      <li>Content & campaign execution</li>
+      <li>Growth support</li>
+    </ul>
+    <p class="service-fit"><strong>Best for:</strong> Traction & visibility</p>
+  </div>
+
+  <div class="service-box">
+    <span class="service-tag">OPERATIONS</span>
+    <h2>Operations & Compliance Support</h2>
+    <p>
+      We manage essential operational and regulatory requirements
+      to reduce risk and ensure continuity.
+    </p>
+    <ul>
+      <li>GST, Trademark & ROC services</li>
+      <li>Compliance documentation</li>
+      <li>Operational coordination</li>
+      <li>Ongoing execution assistance</li>
+    </ul>
+    <p class="service-fit"><strong>Best for:</strong> Growing teams</p>
+  </div>
+
+</section>
+
+<!-- ===== Engagement Model ===== -->
+<section class="gap-section container">
+  <h2>Our Engagement Model</h2>
+  <p>
+    Setu Connect works through structured, ongoing engagements aligned with your
+    business stage and execution needs.
+  </p>
+  <p>
+    This ensures continuity, accountability, and repeatable execution outcomes
+    as your business grows.
+  </p>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="contact-section">
+  <div class="container">
+    <h2>Let’s Discuss Your Execution Needs</h2>
+    <p class="contact-sub">
+      If you are building, scaling, or restructuring your business,
+      we’d love to understand your execution challenges.
+    </p>
+    <a href="index.html#contact" class="cta-button">
+      Schedule a Conversation
+    </a>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>Setu Connect — Bridging Vision and Execution</p>
+    <p>© <span id="year"></span> All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ===== Scripts ===== -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.onclick = () => {
+    navLinks.classList.toggle("active");
+  };
+</script>
+<body class="site-show">
+  <div id="page-transition">
+
+    <!-- ALL YOUR EXISTING PAGE CONTENT GOES HERE -->
+
+  </div>
+</body>
+<script>
+  const transitionEl = document.getElementById("page-transition");
+
+  document.querySelectorAll("a[href]").forEach(link => {
+    const url = link.getAttribute("href");
+
+    // Ignore anchor links & external links
+    if (
+      url.startsWith("#") ||
+      url.startsWith("http") ||
+      link.target === "_blank"
+    ) return;
+
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      transitionEl.classList.add("page-exit");
+
+      setTimeout(() => {
+        window.location.href = url;
+      }, 400);
+    });
+  });
+</script>
+
+</body>
+</html>

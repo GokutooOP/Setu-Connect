@@ -4,21 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Setu Connect — Your Execution Partner</title>
-  <meta name="description" content="Setu Connect is a business support and execution partner helping startups and businesses turn ideas into reality.">
+  <title>Setu Connect | Business Execution Partner</title>
+  <meta name="description" content="Setu Connect is a business execution partner helping startups and growing businesses with tech, marketing, operations, and compliance.">
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<!-- ===== Intro Animation ===== -->
+<!-- ===== Intro ===== -->
 <div id="intro">
   <div class="intro-wrapper">
     <div class="intro-line"></div>
@@ -28,7 +27,7 @@
 </div>
 
 <!-- ===== Header ===== -->
-<header class="header">
+<header class="header" id="site-header">
   <nav class="nav container">
     <a href="/" class="logo-link">
       <img src="images/setuconnect-logo.png" alt="Setu Connect Logo" class="logo">
@@ -37,9 +36,12 @@
     <ul class="nav-links" id="nav-links">
       <li><a href="#hero">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#process">Process</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="process.html">Process</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li class="nav-cta">
+        <a href="#contact" class="nav-button">Get Started</a>
+      </li>
     </ul>
 
     <div class="menu-toggle" id="menu-toggle">☰</div>
@@ -53,13 +55,11 @@
       We bridge the gap,<br>
       <span class="gradient-text">between vision and execution</span>
     </h1>
-
     <p class="tagline animate delay-2">
-      You focus on the vision. We handle the execution.
+      You bring the idea. We handle systems, structure, and execution.
     </p>
-
     <a href="#contact" class="cta-button animate delay-3">
-      Book a Consultation
+      Book a Free Consultation
     </a>
   </div>
 </section>
@@ -67,16 +67,9 @@
 <!-- ===== About ===== -->
 <section id="about" class="gap-section container">
   <h2>Your Execution Partner</h2>
-
-  <p>
-    <strong>Setu Connect</strong> helps startups, entrepreneurs, and growing businesses
-    turn ideas into reality through structured execution and reliable support.
-  </p>
-
-  <p>
-    We bridge the gap between vision and execution, ensuring smooth operations,
-    sustainable growth, and complete compliance — all under one roof.
-  </p>
+  <p><strong>Setu Connect</strong> helps startups and growing businesses turn ideas into reality.</p>
+  <p>We bridge the gap between planning and action so you can focus on growth.</p>
+  <p><strong>We don’t just advise — we execute.</strong></p>
 
   <div class="gap-visual">
     <div>Vision</div>
@@ -85,38 +78,55 @@
   </div>
 </section>
 
-<!-- ===== Services ===== -->
+<!-- ===== Why Setu ===== -->
+<section class="gap-section container">
+  <h2>Why “Setu Connect”?</h2>
+  <p>“Setu” means bridge — and that’s exactly what we do.</p>
+  <ul class="why-list">
+    <li>Vision ↔ Execution</li>
+    <li>Ideas ↔ Implementation</li>
+    <li>Complexity ↔ Clarity</li>
+    <li>Strategy ↔ Results</li>
+  </ul>
+</section>
+
+<!-- ===== Services Slider ===== -->
 <section id="services" class="services-section">
   <div class="container">
     <h2>What We Do</h2>
 
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Tech Support</h3>
-        <p>Systems setup, tools, automation, and technical execution.</p>
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <h3>Tech & Execution Support</h3>
+          <p>Systems, automation, workflows, and execution support.</p>
+        </div>
+        <div class="slide">
+          <h3>Marketing & Branding</h3>
+          <p>Brand identity, digital presence, and growth execution.</p>
+        </div>
+        <div class="slide">
+          <h3>Operations & Compliance</h3>
+          <p>GST, Trademark, ROC, and operational structuring.</p>
+        </div>
       </div>
 
-      <div class="service-card">
-        <h3>Marketing & Branding</h3>
-        <p>Brand identity, digital presence, and growth-focused strategies.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Operations & Compliance</h3>
-        <p>Process setup, GST, Trademark, and ROC services.</p>
+      <div class="slider-controls">
+        <button id="prev">‹</button>
+        <button id="next">›</button>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== Why ===== -->
+<!-- ===== Why Choose ===== -->
 <section class="container">
   <h2>Why Choose Setu Connect?</h2>
   <ul class="why-list">
-    <li>Execution-first mindset</li>
+    <li>Execution-first approach</li>
     <li>Single partner for multiple needs</li>
-    <li>Reliable and transparent support</li>
-    <li>Startup-focused solutions</li>
+    <li>Clear accountability</li>
+    <li>Built for startups & scale-ups</li>
   </ul>
 </section>
 
@@ -126,7 +136,7 @@
   <ol class="process-list">
     <li>Understand your business</li>
     <li>Create execution roadmap</li>
-    <li>Implement with precision</li>
+    <li>Implement with ownership</li>
     <li>Support and scale</li>
   </ol>
 </section>
@@ -135,11 +145,10 @@
 <section id="contact" class="contact-section">
   <div class="container">
     <h2>Let’s Build Together</h2>
-
     <form class="contact-form">
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Tell us about your idea" required></textarea>
+      <textarea rows="5" placeholder="Tell us about your business" required></textarea>
       <button class="cta-button">Send Message</button>
     </form>
   </div>
@@ -154,8 +163,10 @@
 
 <!-- ===== Scripts ===== -->
 <script>
+  // Year
   document.getElementById("year").textContent = new Date().getFullYear();
 
+  // Intro
   window.addEventListener("load", () => {
     setTimeout(() => {
       document.getElementById("intro").classList.add("intro-hide");
@@ -163,9 +174,84 @@
     }, 2200);
   });
 
-  document.getElementById("menu-toggle").onclick = () => {
-    document.getElementById("nav-links").classList.toggle("active");
+  // Mobile menu
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+  menuToggle.onclick = () => {
+    navLinks.classList.toggle("active");
+    header.classList.remove("hide");
   };
+
+  // Slider
+  const slides = document.querySelector(".slides");
+  const slideItems = document.querySelectorAll(".slide");
+  let index = 0;
+
+  if (slides && slideItems.length) {
+    document.getElementById("next").onclick = () => {
+      index = (index + 1) % slideItems.length;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    };
+    document.getElementById("prev").onclick = () => {
+      index = (index - 1 + slideItems.length) % slideItems.length;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    };
+    setInterval(() => {
+      index = (index + 1) % slideItems.length;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }, 5000);
+  }
+
+  // Header hide/show
+  const header = document.getElementById("site-header");
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    if (!document.body.classList.contains("site-show")) return;
+
+    const current = window.scrollY;
+
+    if (current > 10) header.classList.add("scrolled");
+    else header.classList.remove("scrolled");
+
+    if (current > lastScrollY && current > 120) {
+      header.classList.add("hide");
+    } else {
+      header.classList.remove("hide");
+    }
+
+    lastScrollY = current;
+  });
+</script>
+<body class="site-show">
+  <div id="page-transition">
+
+    <!-- ALL YOUR EXISTING PAGE CONTENT GOES HERE -->
+
+  </div>
+</body>
+<script>
+  const transitionEl = document.getElementById("page-transition");
+
+  document.querySelectorAll("a[href]").forEach(link => {
+    const url = link.getAttribute("href");
+
+    // Ignore anchor links & external links
+    if (
+      url.startsWith("#") ||
+      url.startsWith("http") ||
+      link.target === "_blank"
+    ) return;
+
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      transitionEl.classList.add("page-exit");
+
+      setTimeout(() => {
+        window.location.href = url;
+      }, 400);
+    });
+  });
 </script>
 
 </body>
