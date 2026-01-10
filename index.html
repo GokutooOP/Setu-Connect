@@ -142,17 +142,39 @@
 </section>
 
 <!-- ===== Contact ===== -->
-<section id="contact" class="contact-section">
-  <div class="container">
-    <h2>Let’s Build Together</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Tell us about your business" required></textarea>
-      <button class="cta-button">Send Message</button>
-    </form>
-  </div>
-</section>
+<form
+  action="https://usebasin.com/f/f8a6effa88b6"
+  method="POST"
+  class="contact-form"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+  >
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+  >
+
+  <textarea
+    name="message"
+    placeholder="Tell us about your project"
+    required
+  ></textarea>
+
+  <!-- Optional but recommended -->
+  <input type="hidden" name="_subject" value="New Free Consultation Request – Setu Connect">
+
+  <button type="submit" class="cta-button">
+    Book Free Consultation
+  </button>
+</form>
+
 
 <!-- ===== Footer ===== -->
 <footer class="footer">

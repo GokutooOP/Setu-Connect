@@ -315,3 +315,132 @@ body.site-show .header { opacity: 1; transform: translateY(0); }
     transform: translateY(-10px);
   }
 }
+.about-hero {
+  background: radial-gradient(circle at top, #1f2933, #0f172a);
+  padding: 120px 20px 100px;
+}
+
+.about-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.about-hero .tagline {
+  max-width: 720px;
+  margin: 20px auto 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+.about-section {
+  margin: 80px auto;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-card h2 {
+  font-size: 1.9rem;
+  margin-bottom: 18px;
+}
+
+.about-card p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #475569;
+}
+
+.about-card.highlight {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+}
+
+.about-card.highlight p {
+  color: #e5e7eb;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-mini {
+  padding: 32px;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-mini:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+}
+
+.about-mini h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.about-mini p {
+  color: #475569;
+  line-height: 1.7;
+}
+.why-list {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.why-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.05rem;
+  color: #334155;
+}
+
+.why-list li strong {
+  color: #0f172a;
+}
+.contact-section {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #f8fafc;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 14px;
+}
+
+.contact-sub {
+  max-width: 680px;
+  margin: 0 auto 32px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 34px;
+  border-radius: 999px;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(56, 189, 248, 0.35);
+}
