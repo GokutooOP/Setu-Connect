@@ -467,3 +467,28 @@ body.site-show .header { opacity: 1; transform: translateY(0); }
   text-decoration: underline;
   font-weight: 500;
 }
+/* ===== Glow effect for Process sections ===== */
+
+/* Hover glow */
+.process-step:hover,
+.process-list li:hover {
+  box-shadow: 0 0 0 1px rgba(47, 109, 246, 0.4),
+              0 12px 30px rgba(47, 109, 246, 0.25);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  transform: translateY(-4px);
+}
+
+/* Click / focus glow */
+.process-step:active,
+.process-step:focus-within,
+.process-list li:active,
+.process-list li:focus-within {
+  box-shadow: 0 0 0 2px rgba(47, 109, 246, 0.7),
+              0 16px 40px rgba(47, 109, 246, 0.4);
+}
+
+/* Remove ugly default focus ring */
+.process-step:focus,
+.process-list li:focus {
+  outline: none;
+}
